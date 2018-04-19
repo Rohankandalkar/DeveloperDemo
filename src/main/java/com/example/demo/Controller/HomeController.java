@@ -78,7 +78,7 @@ public class HomeController {
 	@RequestMapping(value="/getAll",method=RequestMethod.GET)
 	public String getAllDevlopers() {
 		
-		
+		System.out.println("GET ALL DEVELOPER");
 		return "Registration";
 		
 		
