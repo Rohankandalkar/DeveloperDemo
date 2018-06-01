@@ -61,6 +61,8 @@ public class Developer {
 	}
 
 	public long getMobileNumber() {
+		System.out.println("get all developer");
+
 		return mobileNumber;
 	}
 

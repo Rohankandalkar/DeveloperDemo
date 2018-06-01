@@ -22,6 +22,8 @@ public class DeveloperService {
 
 	public void addDeveloperService(Developer developer) {
 		// TODO Auto-generated method stub
+		System.out.println("get all developer");
+
 		this.developerRepository.save(developer);
 	}
 

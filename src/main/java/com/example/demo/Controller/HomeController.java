@@ -59,7 +59,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/registerpage",method=RequestMethod.GET)
 	public String Login() {
-		
+		//changes in controller
 		return "Registration";
 		
 		
@@ -77,7 +77,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/getAll",method=RequestMethod.GET)
 	public String getAllDevlopers() {
-		
+		System.out.println("get all developer");
 		System.out.println("GET ALL DEVELOPER");
 		return "Registration";
 		
