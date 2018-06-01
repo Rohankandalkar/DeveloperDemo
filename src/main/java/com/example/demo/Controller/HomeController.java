@@ -89,7 +89,9 @@ public class HomeController {
 
 	@RequestMapping(value="/addDeveloper")
 	public String addDeveloper(Developer developer) {
-		
+		System.out.println("get all developer");
+		System.out.println("GET ALL DEVELOPER");System.out.println("get all developer");
+		System.out.println("GET ALL DEVELOPER");
 		this.developerservice.addDeveloperService(developer);
 		
 		return "redirect:/AdminProfileurl";
