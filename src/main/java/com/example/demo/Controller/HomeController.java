@@ -80,6 +80,8 @@ public class HomeController {
 	public String getAllDevlopers() {
 		System.out.println("get all developer");
 		System.out.println("GET ALL DEVELOPER");
+		System.out.println("get all developer");
+		System.out.println("GET ALL DEVELOPER");System.out.println("get all developer");
 		return "Registration";
 		
 		
@@ -92,6 +94,8 @@ public class HomeController {
 		System.out.println("get all developer");
 		System.out.println("GET ALL DEVELOPER");System.out.println("get all developer");
 		System.out.println("GET ALL DEVELOPER");
+		System.out.println("get all developer");
+		System.out.println("GET ALL DEVELOPER");System.out.println("get all developer");
 		this.developerservice.addDeveloperService(developer);
 		
 		return "redirect:/AdminProfileurl";
