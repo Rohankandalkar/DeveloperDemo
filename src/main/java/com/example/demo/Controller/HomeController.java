@@ -60,6 +60,7 @@ public class HomeController {
 	@RequestMapping(value="/registerpage",method=RequestMethod.GET)
 	public String Login() {
 		//changes in controller
+		System.out.println("in registration");
 		return "Registration";
 		
 		
